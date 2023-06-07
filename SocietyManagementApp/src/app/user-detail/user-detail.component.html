@@ -1,0 +1,73 @@
+<html lang="en" dir="ltr">
+
+<body>
+    <div class="wrapper">
+        <div class="title">
+            <h2>User Details</h2>
+        </div>
+
+
+
+        <mat-toolbar>
+
+            <h1 style="padding-left: 40%;"></h1>
+
+        </mat-toolbar>
+        <mat-card-content>
+            <form>
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                                <input matInput type="text id=empFirstName" formControlName="empFirstName" placeholder="*" required>
+                            </mat-form-field>
+                        </td>
+
+                        <td>Last Name</td>
+                        <td>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                                <input matInput type="text id=empLastName" formControlName="empLastName" placeholder="*">
+                            </mat-form-field>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Contect</td>
+                        <td>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                                <input matInput type="text id=empFirstName" formControlName="empFirstName" placeholder="*" required>
+                            </mat-form-field>
+                        </td>
+
+                        <td>Email</td>
+                        <td>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                                <input matInput type="text id=empLastName" formControlName="empLastName" placeholder="*">
+                            </mat-form-field>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>Address</td>
+                        <td>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                                <input matInput type="text id=empLastName" formControlName="empLastName" placeholder="*">
+                            </mat-form-field>
+                        </td>
+
+                        <td>FixPayAmount</td>
+                        <td>
+                            <mat-form-field class="example-full-width" appearance="fill">
+                                <input matInput type="text id=empLastName" formControlName="empLastName" placeholder="*">
+                            </mat-form-field>
+                        </td>
+                    </tr>
+                </table>
+                <div class="form-group">
+                    <a routerLink="/userDetail" class="btn btn-link">Add</a>
+                    <a routerLink="/register" class="btn btn-link">Edit</a>
+                    <a routerLink="/register" class="btn btn-link">Delete</a>
+                </div>
+            </form>
+        </mat-card-content>
